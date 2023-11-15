@@ -51,11 +51,11 @@ const drawChart = (dataType) => {
       ["Claro que se puede", 3, "#546e7a", "Claro que se puede"],
       [
         "Independientes y grupos de minoría",
-        12,
+        13,
         "#8ed82f",
         "Independientes y grupos de minoría",
       ],
-      ["Gente Buena", 8, "#0165F1", "Gente Buena"],
+      ["Gente Buena", 7, "#0165F1", "Gente Buena"],
     ];
   }
 
