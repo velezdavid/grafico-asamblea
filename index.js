@@ -8,51 +8,51 @@ const drawChart = (dataType) => {
   let data;
   if (dataType === "corte1") {
     data = [
-      ["Revolución Ciudadana", 52, "#00aeef", "Revolución Ciudadana"],
-      ["Construye", 29, "#0044b3", "Construye"],
+      ["Revolución Ciudadana", 52, "#46A4DA", "Revolución Ciudadana"],
+      ["Construye", 29, "#0001FC", "Construye"],
       ["PSC-aliados", 18, "#fbd80e", "PSC-aliados"],
-      ["ADN", 14, "#9d58ce", "ADN", "revolución-ciudadana3"],
-      ["Actuemos (Avanza/SUMA)", 8, "#dd9f00", "Actuemos (Avanza/SUMA)"],
-      ["Pachakutik", 5, "#ff9300", "Pachakutik"],
-      ["Claro que se puede", 3, "#546e7a", "Claro que se puede"],
+      ["ADN", 14, "#9C27B9", "ADN", "revolución-ciudadana3"],
+      ["Actuemos (Avanza/SUMA)", 8, "#FF9300", "Actuemos (Avanza/SUMA)"],
+      ["Pachakutik", 5, "#10A544", "Pachakutik"],
+      ["Claro que se puede", 3, "#FFFF", "Claro que se puede"],
       [
         "Independientes y grupos de minoría",
         8,
-        "#8ed82f",
+        "#9E9E9E",
         "Independientes y grupos de minoría",
       ],
       // ["Gente Buena", 0, "#0165F1", "Gente Buena"],
     ];
   } else if (dataType === "corte2") {
     data = [
-      ["Revolución Ciudadana", 51, "#00aeef", "Revolución Ciudadana"],
-      ["Construye", 26, "#0044b3", "Construye"],
+      ["Revolución Ciudadana", 51, "#46A4DA", "Revolución Ciudadana"],
+      ["Construye", 26, "#0001FC", "Construye"],
       ["PSC-aliados", 18, "#fbd80e", "PSC-aliados"],
-      ["ADN", 14, "#9d58ce", "ADN"],
-      ["Actuemos (Avanza/SUMA)", 8, "#dd9f00", "Actuemos (Avanza/SUMA)"],
-      ["Pachakutik", 5, "#ff9300", "Pachakutik"],
-      ["Claro que se puede", 3, "#546e7a", "Claro que se puede"],
+      ["ADN", 14, "#9C27B9", "ADN"],
+      ["Actuemos (Avanza/SUMA)", 8, "#FF9300", "Actuemos (Avanza/SUMA)"],
+      ["Pachakutik", 5, "#10A544", "Pachakutik"],
+      ["Claro que se puede", 3, "#FFFF", "Claro que se puede"],
       [
         "Independientes y grupos de minoría",
         12,
-        "#8ed82f",
+        "#9E9E9E",
         "Independientes y grupos de minoría",
       ],
       // ["Gente Buena", 0, "#0165F1", "Gente Buena"],
     ];
   } else if (dataType === "corte3") {
     data = [
-      ["Revolución Ciudadana", 51, "#00aeef", "Revolución Ciudadana"],
-      ["Construye", 18, "#0044b3", "Construye"],
+      ["Revolución Ciudadana", 51, "#46A4DA", "Revolución Ciudadana"],
+      ["Construye", 18, "#0001FC", "Construye"],
       ["PSC-aliados", 18, "#fbd80e", "PSC-aliados"],
-      ["ADN", 14, "#9d58ce", "ADN"],
-      ["Actuemos (Avanza/SUMA)", 8, "#dd9f00", "Actuemos (Avanza/SUMA)"],
-      ["Pachakutik", 5, "#ff9300", "Pachakutik"],
-      ["Claro que se puede", 3, "#546e7a", "Claro que se puede"],
+      ["ADN", 14, "#9C27B9", "ADN"],
+      ["Actuemos (Avanza/SUMA)", 8, "#FF9300", "Actuemos (Avanza/SUMA)"],
+      ["Pachakutik", 5, "#10A544", "Pachakutik"],
+      ["Claro que se puede", 3, "#FFFF", "Claro que se puede"],
       [
         "Independientes y grupos de minoría",
         13,
-        "#8ed82f",
+        "#9E9E9E",
         "Independientes y grupos de minoría",
       ],
       ["Gente Buena", 7, "#0165F1", "Gente Buena"],
@@ -62,7 +62,7 @@ const drawChart = (dataType) => {
   var options = {
     chart: {
       type: "item",
-      backgroundColor: "#F8F8F8",
+      backgroundColor: "#ebebeb",
     },
 
     title: {
